@@ -1,0 +1,97 @@
+#Intro {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+    font-family: cursive;
+    h1 {
+        text-align: center;
+        line-height: 4em;
+    }
+    p {
+        font-size: 22px;
+        text-align: center;
+    }
+    background:linear-gradient(rgba(119, 47, 26, 0.45), rgba(242, 166, 90, 0.45)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.beFqFB-cO_n2PFlKsoGTogHaFA%26pid%3DApi&f=1");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: scroll;
+    background-size:100% 100%;
+    background-color: #772f1a 50%;
+    justify-content:center;
+    width:98.8%;
+    height:600px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    color:white;
+    word-wrap:normal;
+    position:scroll;
+}
+
+.Index {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(43, 23, 12, 0.87);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    word-wrap: normal;
+    position: relative;
+}
+
+li {
+    display: inline;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 10px;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-content: center;
+    justify-content: center;
+    img {
+        width: 100%;
+    }
+    p {
+        font-family: Trebuchet MS;
+    }
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    color: grey;
+    font-family: Snell Roundhand, cursive;
+}
+
+iframe {
+    width: 665px;
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
+}
